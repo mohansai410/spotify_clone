@@ -1,0 +1,403 @@
+body{
+    background-color: black;
+}
+.menu{
+    border:none;
+    margin:10px;
+    width:350px;
+    border-radius:14px;
+    background-color: rgb(50, 48, 48);
+    padding:10px;
+}
+.btn{
+    width:100%;
+    height:50px;
+    border-radius:14px;
+    background-color: rgb(50, 48, 48);
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(138, 135, 135);
+   cursor: pointer;
+}
+.sidemenu{
+    width:350px;
+    margin: 10px;
+    background-color: rgb(50, 48, 48);
+    border-radius: 14px;
+    border:none;
+    padding:10px;
+
+}
+.btn1{
+    cursor: pointer;
+    width:60%;
+    height:45px;
+    background-color: rgb(50, 48, 48);
+    color: white;
+    border:none;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius:14px;
+   font-size: larger;
+    
+
+}
+.btn1:hover{
+    background-color: rgb(138, 135, 135);
+    cursor: pointer;
+ }
+
+.btn2{
+    cursor: pointer;
+    height: 45px;
+    background-color: rgb(50, 48, 48);
+    color: white;
+    border:none;
+   font-size: larger;
+
+}
+.btn2:hover{
+    background-color: rgb(138, 135, 135);
+    cursor: pointer;
+ }
+
+.btn3{
+    cursor: pointer;
+    height: 45px;
+    background-color: rgb(50, 48, 48);
+    color: white;
+    border:none;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+   font-size: larger;
+
+}
+.btn3:hover{
+    background-color: rgb(138, 135, 135);
+    cursor: pointer;
+ }
+
+.library{
+    display:flex;
+    justify-content: space-between;
+   border-radius:14px;
+}
+.btn4{
+    cursor: pointer;
+    border:none;
+    border-radius:14px;
+    background-color: rgb(97, 96, 96);
+    color: white;
+    font-size: larger;
+
+}
+.btn4:hover{
+    background-color: rgb(138, 135, 135);
+    cursor: pointer;
+ }
+
+.playlist{
+
+    display:flex;
+    justify-content: space-between;
+}
+.search{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sea{
+    border:none;
+    border-radius:14px;
+    background-color: rgb(97, 96, 96);
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+
+}
+.sea:hover{
+    background-color: rgb(138, 135, 135);
+    cursor: pointer;
+ }
+
+.recent{
+    border:none;
+    border-radius:14px;
+    background-color: rgb(97, 96, 96);
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+.recent:hover{
+    background-color: rgb(138, 135, 135);
+    cursor: pointer;
+ }
+
+.liked{
+    cursor: pointer;
+    width:50px;
+    height:50px;
+    object-fit: cover;
+}
+.albums{
+    display:flex;
+    font-size: larger;
+    font-family: impact;
+    color:white;
+    gap:10px;
+    align-items:center;
+    margin-bottom: 10px;
+}
+.albums:hover{
+   background-color: rgb(138, 135, 135);
+   cursor: pointer;
+}
+.side_arrow{
+    border:none;
+    border-radius:14px;
+    background-color: rgb(50, 48, 48);
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+
+    
+}
+.side_arrow:hover{
+    background-color: rgb(138, 135, 135);
+    cursor: pointer;
+    
+}
+.container{
+    display:flex;
+    position:relative;
+
+}
+.midarea{border:none;
+    margin:10px;
+    width:950px;
+    border-radius:14px;
+    background-color: black;
+    padding:10px;
+
+}
+.premium{
+    cursor: pointer;
+    border:1px solid white;
+    background-color:white;
+    color: rgb(50, 48, 48);
+    border-radius:14px;
+    padding:5px;
+}
+.premium:hover{
+    color:white;
+    background-color: rgb(50, 48, 48);
+  
+}
+.upper_area{
+    display:flex;
+    justify-content: space-between;
+
+}
+.m{
+    cursor: pointer;
+    border:1px solid orangered;
+    border-radius:14px;
+    background-color: orangered;
+     color:black;
+    font-size: larger;
+
+}
+.m:hover{
+    cursor:pointer;
+    background-color: rgb(245, 131, 90);
+}
+.album_photo{
+    width:300px;
+    height:300px;
+}
+.kgf{
+    margin-left:10px;
+    margin-top: 20px;
+}
+.mid_region{
+    display:flex;
+    gap:15px;
+}
+.content{
+    font-size: 25px;
+    font-family: impact;
+    color:white;
+    margin-top: 75px;
+}
+
+.sub-content{
+    color:rgb(148, 143, 143);
+
+}
+.play{
+    background-color: rgb(10, 239, 59);
+    border-radius: 20px;
+    padding:15px;
+    cursor: pointer;
+    font-size: larger;
+}
+.play:hover{
+    background-color: rgb(107, 249, 138);
+    cursor: pointer;
+}
+.follow{
+    background-color: black;
+    color:white;
+    border-radius:18px;
+    padding:15px;
+    border:1px solid grey;
+    cursor: pointer;
+}
+.follow:hover{
+    background-color: rgb(138, 135, 135);
+    cursor: pointer;
+}
+.three-dots{
+    border:none;
+    font-size: larger;
+    background-color: rgb(50, 48, 48);
+    color:white;
+    cursor: pointer;
+
+}
+.three-dots:hover{
+    background-color: rgb(138, 135, 135);
+    cursor: pointer;
+}
+.arya{
+    width:400px;
+    height:55px;
+    display:flex;
+    gap:10px;
+    background-color: rgb(50, 48, 48);
+    color:white;
+    font-size: larger;
+    align-items: center;
+    padding:10px;
+    margin:10px;
+}
+.arya:hover{
+    background-color: rgb(138, 135, 135);
+    cursor: pointer;
+}
+
+.aryaimg{
+    height:50px;
+    width:50px;
+    object-fit: cover;
+
+
+}
+.songs-playlists{
+    display:flex;
+    gap:25px;
+    font-size: medium;
+    font-family: Impact;
+}
+
+
+.right-area{
+    width:350px;
+    border:none;
+    border-radius:14px;
+    margin:10px;
+    color:white;
+    padding:10px;
+}
+.uparea{
+    display:flex;
+    justify-content: space-between;
+     
+}
+.priyathama{
+    width:100%;
+    border-radius: 14px;
+    
+}
+.singer{
+    color:rgb(190, 186, 186);
+}
+.song-name{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: larger;
+}
+.credits{
+    background-color: rgb(50, 48, 48);
+    color:white;
+    width:300px;
+    padding:10px;
+    margin:10px;
+    border-radius:14px;
+}
+.credits1{
+    display: flex;
+    justify-content: space-between;
+}
+.show{
+    color:rgb(190, 186, 186);
+}
+.follow-button{
+    background-color: black;
+    color:white;
+    border-radius: 14px;
+    border:1px solid lightgrey;
+}
+.follow{
+    background-color:rgb(50, 48, 48);
+    display:flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+.mid-buttons{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.footer{
+    width:100%;
+    height:80px;
+    background-color: black;
+    position: absolute;
+    bottom:0;
+    position: fixed;
+}
+.priyathama-footer{
+    width:50px;
+    height:50px;
+    margin:10px;
+}
+.footer1{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.footer-singer-name{
+    color:rgb(190, 186, 186);
+}
+.footer-song-details{
+    color:white;
+  
+}
+.plus{
+    color:white;
+    font-size: larger;
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+
+}
+
+
